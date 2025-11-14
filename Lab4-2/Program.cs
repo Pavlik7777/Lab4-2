@@ -4,8 +4,8 @@
 Console.WriteLine("Введите n:");
 Console.WriteLine("Введите y:");
 Random rnd = new Random();
-int n = rnd.Next();
-int y = rnd.Next();
+int n = rnd.Next(0,8);
+int y = rnd.Next(0,8);
 int[,] mas = new int[n, y];
 for (int i = 0; i < mas.GetLength(0); i++)
 {
